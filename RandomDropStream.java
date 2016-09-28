@@ -38,6 +38,11 @@ import com.google.common.collect.Lists;
 *  Example Stream for Lucene / Solr Revolution 2016
 *  
 *  Shows how to remove tuples from a stream.
+*
+*  randomDrop(
+*    <stream>,
+*    dropRate=.4
+*  )
 **/
 
 public class RandomDropStream extends TupleStream implements Expressible {

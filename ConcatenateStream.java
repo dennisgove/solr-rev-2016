@@ -37,6 +37,12 @@ import com.google.common.collect.Lists;
 *  Example Stream for Lucene / Solr Revolution 2016
 *  
 *  Shows how to make decisions based on the values in each read tuple
+*
+*  concatenate(
+*    <stream>,
+*    left=fieldA,
+*    right=fieldB
+*  )
 **/
 
 public class ConcatenateStream extends TupleStream implements Expressible {
